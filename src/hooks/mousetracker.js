@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from 'react';
 
-export function useMouseTracker() {
+export function mouseTracker() {
   const [isMouseDown, setIsMouseDown] = useState(false);
   
   // The mouse has been pressed
@@ -22,8 +22,8 @@ export function useMouseTracker() {
 
   return {
     isMouseDown,
-    handleMouseDown,
-    handleMouseUp,
-    handleMouseLeave
+    mouseDown,
+    mouseUp,
+    mouseLeave
   };
 }
