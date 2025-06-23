@@ -1,8 +1,8 @@
 import React from "react";
+import { useState } from "react";
 import { createRoot } from "react-dom/client";
 import Table from "./components/Table";
 import "./style.css";
-
 
 const App = () => {
   const [grid, setGrid] = useState([[""]]);
