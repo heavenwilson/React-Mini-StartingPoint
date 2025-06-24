@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./src/app.jsx",
+  entry: "../src/main.jsx",
   output: {
     path: path.resolve(__dirname, "public"),
     filename: "main.js",
